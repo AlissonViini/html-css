@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir a imagem abaixo em vários dispositivos diferentes, ou simplesmente diminua o tamanho da janela de seu navegador</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="Foto pequena">
+    </picture>
+
+    <h1>Ádio dinâmico</h1>
+    <audio controls preload="metadata">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <p>Seu navegador não é capaz de reproduzir áudio, para baixa-lo <a href="midia/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mp3">clique aqui</a></p>
+    </audio>
+    <p>O preload metadata, é o mais prático de se usar, pois o áudio só vai carregar quando o usuário apertar play</p>
+
+</body>
+</html>

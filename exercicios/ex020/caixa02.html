@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags semânticas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header{
+            background-color: rgb(204, 204, 204);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+            border-radius: 7px;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: #585858;
+            text-align: center;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+            border-radius: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+        }
+
+        nav > a:hover{
+            color: yellow;
+        }
+
+        main{
+            background-color: rgb(207, 207, 207);
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+            border-radius: 20px 0px;
+        }
+
+        article{
+            background-color: rgb(153, 160, 167);
+            text-align: justify;
+            text-indent: 20px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        aside{
+            background-color: #585858;
+            color: white;
+            text-align: center;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+            border-radius: 3px;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+        
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: 800;
+            padding: 10px;
+            margin: 10px;
+            height: 60px;
+            border-radius: 7px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+            
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam harum at dicta labore, possimus non natus eveniet similique enim explicabo suscipit laborum fuga laudantium et quia pariatur culpa in.</p>
+
+                <aside><p>Artigo escrito por José da silva</p></aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Alisson Vinícius</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
