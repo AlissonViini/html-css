@@ -39,7 +39,7 @@ section{
 }
 section p{
   font-family: 'fonte-poema';
-  font-size: 2em;
+  font-size: 5vw;
   line-height: 1.5em;
 }
 section.imagem{
@@ -63,7 +63,7 @@ section.sem-img{
 }
 section.imagem p{
   background-color: rgba(0, 0, 0, 0.445);
-  max-width: 400px;
+  max-width: 60vw;
   padding: 20px;
   color: white;
 }
@@ -71,7 +71,7 @@ section.imagem p{
 footer{
   background-color: black;
   color: white;
-  height: 50px;
+  height: 55px;
   text-align: center;
   padding-top: 15px;
 
