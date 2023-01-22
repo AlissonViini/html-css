@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 450px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        col.cnome{
+            background-color: lightblue;
+        }
+        col.csexo{
+            background-color: rgb(235, 160, 160);
+        }
+        col.cidade{
+            background-color: lightblue;
+        }
+        col.cprof{
+            background-color: rgb(235, 160, 160);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alisson</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Assistente admin.</td>
+            </tr>
+            <tr>
+                <td>L. Messi</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Jogador de futebol</td>
+            </tr>
+            <tr>
+                <td>Elon Musk</td>
+                <td>M</td>
+                <td>51</td>
+                <td>CEO</td>
+            </tr>
+            <tr>
+                <td>Maria Martha</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Jogadora de futebol</td>
+            </tr>
+            <tr>
+                <td>G. Guanabara</td>
+                <td>M</td>
+                <td>4*</td>
+                <td>Professor/Dev</td>
+            </tr>
+            <tr>
+                <td>Ballerini</td>
+                <td>F</td>
+                <td>2*</td>
+                <td>Programadora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
